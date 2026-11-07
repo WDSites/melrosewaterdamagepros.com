@@ -276,3 +276,14 @@ footer.site .fbottom{border-top:1px solid var(--line);margin-top:30px;padding-to
 .blogcard .bc-top.has-img{padding:0;position:relative;display:block;min-height:0;background:var(--navy)}
 .blogcard .bc-top.has-img img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
 .blogcard .bc-top .bc-tag{position:absolute;left:14px;bottom:12px;background:rgba(13,27,42,.88);color:#fff;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:6px 10px;border-radius:6px}
+
+.findgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.findlist{list-style:none;margin:10px 0 0;padding:0}
+.findlist li{margin:0 0 8px}
+.findlist a{font-weight:600;text-decoration:none;color:var(--navy)}
+.findlist a:hover{color:var(--teal-dk);text-decoration:underline}
+@media (max-width:900px){.findgrid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.findgrid{grid-template-columns:1fr}}
+.findlist a{display:inline}
+.findlist{line-height:1.9;font-size:15px}
+html,body{overflow-x:hidden}
